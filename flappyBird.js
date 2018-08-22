@@ -40,9 +40,14 @@ scoreAud.src = 'sounds/score.mp3';
 // on key down
 
 document.addEventListener('keydown', (e) => {
-    bY -= 25;
+    bY -= 35;
     fly.play();
-})
+});
+
+document.addEventListener('click', (e) => {
+    bY -= 35;
+    fly.play();
+});
 
 // pipe coordinates
 
